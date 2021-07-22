@@ -1,0 +1,304 @@
+
+#main{
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow-y: auto
+}
+
+
+
+#home-container{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 20px;
+	background-color: black;
+	color : white;
+  display: grid;
+  grid-template-columns: 70% 30%;
+
+}
+
+#name_desc{
+	display: grid;
+  grid-template-columns: auto ;
+  grid-template-rows: auto ;
+  margin-top: 70px;
+  margin-bottom: 100px;
+	padding-top: 20px;
+	padding-left : 30px;
+	font-weight: bold;
+	font-size : 25px;}
+
+#desc{
+	padding-left : 40px;
+	font-weight: lighter;
+	font-size : 15px;
+
+}
+
+#desc {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0;  Gives that scrolling effect as the typing happens 
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin:  2px;
+   
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube{
+
+	background-color: #FF0000;
+	color: white;
+}
+
+.fa-linkedin{
+
+	background-color: blue;
+	color: white;
+}
+
+
+.fa-github{
+
+	background-color: #333;
+	color: white;
+}
+
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 40% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  40% { border-color: orange; }
+}
+
+#img_holder{
+	 position: relative
+}
+
+.circleBase {
+	  position: absolute;
+  	top: 40%;
+  	bottom : 10%;
+	  left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.type1 {
+    width: 200px;
+    height: 200px;
+    /*background: white;*/
+    border: 2px solid black;
+
+}
+
+
+
+#about{
+	padding-top: 50px;
+	padding-left: 30px;
+
+}
+
+#about-1{
+	padding-left: 40px;
+}
+
+#skill-container{
+	width: 100%;
+	margin-bottom: 20px;
+	background-color: black;
+	color : white;
+
+}
+
+
+#skill_heading{
+  margin-top: 10px;
+	padding-top: 20px;
+	padding-left : 30px;
+}
+
+#show_skill{
+  display: grid;
+  grid-template-columns: auto;
+
+}
+#err-msg{
+	color : white;
+	padding-top: 20px;
+	padding-left : 30px;
+
+}
+
+.progress-1{
+	display: flex;
+	overflow: hidden;
+	font-size: .75rem;
+	background-color: #e9ecef;
+	margin-top : 5px;
+	margin-left: 20px;
+	margin-right: 200px;
+	height: 1.2rem;
+	border-radius: .80rem;
+}
+
+#project_sec > a{
+  position: absolute;
+  left: 50%;
+}
+
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  padding: 5px;
+}
+
+#grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.9;
+
+}
+
+
+#grid-container > div:hover{
+	opacity: 1;
+	cursor: pointer;
+
+}
+
+
+#footer-container{
+	width: 100%;
+	/*height: 200px;*/
+	margin-top: 50px;
+	background-color: #212529;
+	color : white;	
+}
+
+#footer-grid{
+	display: grid;
+	grid-template-columns: auto auto;
+	padding-bottom: 10px;
+}
+
+
+#name_desc-1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+	padding-top: 10px;
+	padding-left : 30px;
+	font-weight: bold;
+	font-size : 25px;
+}
+
+
+@media only screen and (max-width: 730px) {
+	#home-container{
+		height: 430px;
+		grid-template-columns: auto; }
+	.type1 {
+	  width: 120px;
+	  height: 120px;
+	  }
+	  .progress-1{
+	  	margin-right: 100px;
+	  }
+
+
+  }
+
+@media only screen and (max-width: 490px) {
+	#home-container{
+		height: 500px;
+		grid-template-columns: auto; }
+	.type1 {
+	  width: 100px;
+	  height: 100px;
+	  }
+
+	  .progress-1{
+	  	margin-right: 80px;
+	  }
+  }
+
+
+
+@media only screen and (max-width: 1050px) {
+	#grid-container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 5px;
+		padding: 5px;
+	}
+
+}
+
+.add{
+	margin : 20px
+}
+
+.det{
+	padding-top: 5px;
+	padding-left : 40px;
+	font-size : 15px;
+}
+
+@media only screen and (max-width: 1050px) {
+	#grid-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 0px;
+		padding: 5px;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 520px) {
+	#grid-container {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 0px;
+		padding: 5px;
+	}
+
+}

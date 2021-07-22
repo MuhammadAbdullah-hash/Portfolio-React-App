@@ -1,6 +1,10 @@
 # Portfolio-React-App
 It is My portdolio web app made using react.js as front end and django , django-rest framework as backend. 
 
+## Working
+The React front end placed in "front" directory of project communicate with "API" based django-restframework backend placed in "api" directory.
+The front end fetches data, state is updated and component is rendered. I have used class based component for this project;
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install following packages.

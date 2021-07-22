@@ -17,6 +17,10 @@ django_rest_framework
 pip install djangorestframework
 ```
 ## Usage
+You need to install bunch of stuff from npm to setup a REACT app. For that i have uploaded a zip file with 
+all packages and dependencies. Download it and there will be a folder named "portfolio". Follow following steps to
+get project running :)
+
 Open CMD in the main directory ie "portfolio"
 Type following command in command prompt
 ```python
@@ -27,7 +31,8 @@ Type following command then
 ```React
 npm run dev
 ```
-It will give you a local url with which you can navigate to website
+
+It will give you a local url with which you can navigate to App
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

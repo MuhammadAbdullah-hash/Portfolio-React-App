@@ -11,8 +11,7 @@ pip install django
 django_rest_framework
 ```bash
 pip install djangorestframework
-
-
+```
 ## Usage
 Open CMD in the main directory ie "portfolio"
 Type following command in command prompt

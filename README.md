@@ -14,10 +14,15 @@ pip install djangorestframework
 
 
 ## Usage
-Open CMD in the main directory ie "Collaborative home works"
-Type following command in cmd
+Open CMD in the main directory ie "portfolio"
+Type following command in command prompt
 ```python
 python manage.py runserver
+```
+Now open another cmd in "front" folder inside "Portfolio"
+Type following command then
+```React
+npm run dev
 ```
 It will give you a local url with which you can navigate to website
 ## Contributing

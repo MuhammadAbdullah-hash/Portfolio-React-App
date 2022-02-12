@@ -31,8 +31,18 @@ Type following command then
 ```React
 npm run dev
 ```
-
 It will give you a local url with which you can navigate to App
+## Samples
+  # Home section
+  ![Screenshot](HOME-PORT.png)
+  # Skills section
+  ![Screenshot](SKILLS-PORT.png)
+  # Footer section
+  ![Screenshot](FOOTER-PORT.png)
+  # Projects section
+  ![Screenshot](PROJECTS-PORT.png)
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
